@@ -1,8 +1,8 @@
-#import gameLoop
+from gameLoop import GameLoop
 
 def run():
-    #TODO("instantiating the game loop")
-    pass
+    gameLoop = GameLoop()
+    gameLoop.start()
 
 if __name__ == '__main__':
     run()
